@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3%;
+    background-color: lightblue;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    font-size: 40px;
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+    display: inline;
+    font-size: 30px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+.container {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+.container h2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+    font-size: 40px;
+    display: inline;
+}
+
+.container-child {
+    flex-wrap: wrap;
+    border-left: 5px solid orange;
+    /* display: inline; */
+    flex-direction: row;
+    /* float: left; */
+}
+
+.container-child p {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* display: inline-block; */
+    justify-content: flex-end;
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+/* .container-child img {
+    flex-direction: column;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+} */
+
+#work .container-child a {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    position: relative;
+    margin: auto;
+}
+
+#work .container-child ul li {
+    display: flex;
+    flex-direction: column;
+    /* display: inline-block; */
+    justify-content: center;
+    /* margin: 0 auto; */
+}
+/* section {
+    margin-left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2%;
+} */
+
+/* section h2 {
+    font-size: 40px;
+    display: inline-block;
+} */
+
+/* section article p {
+    display: inline;
+    margin-left: 1%;
+    font-size: 20px;
+} */
+
+/* .work h2 {
+  display: inline-block;
+  justify-content: space-between;
+  float:left;
+  margin-right: 7%;
+} */
+
+#first-image {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* .work img {
+    display: inline;
+    margin: 50px, 30px;
+    justify-content: center;
+    align-items: center;
+} */
+
+footer {
+    /* margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%; */
+    display: flex;
+}
+
+footer h2 {
+    font-size: 40px;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+footer ul li {
+    display: inline;
+    margin: 20px;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+}
